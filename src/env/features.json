@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Account",
+        "text": "Upload photo, manage game settings and create missions."
+    },
+    {
+        "title": "Tanks",
+        "text": "Offer vehicles for World of Tanks: photos and characteristics."
+    },
+    {
+        "title": "Sessions",
+        "text": "Make playing sessions in Discord. Share awards while battle and create platoons."
+    },
+    {
+        "title": "Heroes",
+        "text": "Tell about your tankman-relative: his vehicles, achievements and reply on different questions."
+    },
+    {
+        "title": "Areas",
+        "text": "Create own game maps with locations and facts; manage size, battle mode and tier border."
+    },
+    {
+        "title": "Profiles",
+        "text": "Find game-friends, look stats and missions, connect via Telegram."
+    }
+]
