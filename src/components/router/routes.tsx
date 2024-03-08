@@ -13,6 +13,9 @@ import Hero from '../pages/Hero'
 import CreateArea from '../pages/CreateArea'
 import Areas from '../pages/Areas'
 import Area from '../pages/Area'
+import CreateReplay from '../pages/CreateReplay'
+import Replays from '../pages/Replays'
+import Replay from '../pages/Replay'
 import Profiles from '../pages/Profiles'
 import Profile from '../pages/Profile'
 
@@ -59,6 +62,13 @@ export const routes: RouteType[] = [
         access_value: 1,
         url: '/areas',
         component: Areas,
+        isVisible: true
+    },
+    {
+        title: 'Replays',
+        access_value: 1,
+        url: '/replays',
+        component: Replays,
         isVisible: true
     },
     {
@@ -129,6 +139,20 @@ export const routes: RouteType[] = [
         access_value: 1,
         url: '/area/:id',
         component: Area,
+        isVisible: false
+    },
+    {
+        title: '',
+        access_value: 1,
+        url: '/create-replay/:id',
+        component: CreateReplay,
+        isVisible: false
+    },
+    {
+        title: '',
+        access_value: 1,
+        url: '/replay/:id',
+        component: Replay,
         isVisible: false
     },
     {

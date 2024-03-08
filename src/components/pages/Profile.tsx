@@ -119,11 +119,17 @@ const Profile: React.FC<CollectionPropsType> = ({params: {id}}) => {
                                 {mission.image !== '' && <ImageLook src={mission.image} className='photo_item' alt='mission photo' />}
 
                                 <h2>{mission.title}</h2>
+         
+                                <div className='items small'>
+                                    <h5>Every {mission.weekday} in {mission.time}</h5>   
+                                    <h5>ID for platoon: {mission.shortid}</h5>
+                                </div>
 
                                 <div className='items small'>
                                     <h4 className='pale'><b>{mission.volume}K</b> {mission.category}</h4>   
+                                    <h4 className='pale'>Status: {mission.status}</h4>
                                     <h4 className='pale'><b>{mission.supports}</b> supports</h4>
-                                </div>
+                                </div>                              
                                
                                 <button onClick={onSupportMission}>Support</button>
                             </>

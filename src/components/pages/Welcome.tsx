@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {useMutation} from '@apollo/client'
 import Centum from 'centum.js'
 import BackgroundImage from '../../assets/wot-background.jpg'
-import {getNickname} from '../../store/localstorage'
+import {getNickname, init} from '../../store/localstorage'
 import {FEEDBACK_TYPES, PROJECT_TITLE} from '../../env/env'
 import NavigatorWrapper from '../router/NavigatorWrapper'
 import ImageLook from '../UI/ImageLook'
@@ -32,6 +32,7 @@ const Welcome: React.FC = () => {
 
     useEffect(() => {
         centum.title('Welcome Page', PROJECT_TITLE)
+        init()
     }, [])
 
     const onSend = () => {

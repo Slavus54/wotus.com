@@ -14,5 +14,9 @@
     {
         "title": "Area",
         "path": "area"
+    },
+    {
+        "title": "Replay",
+        "path": "replay"
     }
 ]

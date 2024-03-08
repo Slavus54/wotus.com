@@ -25,8 +25,8 @@ export const updateProfilePasswordM = gql`
 `
 
 export const manageProfileMissionM = gql`
-    mutation manageProfileMission($account_id: String!, $option: String!, $title: String!, $category: String!, $volume: Float!, $status: String!, $image: String!, $dateUp: String!, $coll_id: String!) {
-        manageProfileMission(account_id: $account_id, option: $option, title: $title, category: $category, volume: $volume, status: $status, image: $image, dateUp: $dateUp, coll_id: $coll_id)
+    mutation manageProfileMission($account_id: String!, $option: String!, $title: String!, $category: String!, $volume: Float!, $time: String!, $weekday: String!, $status: String!, $image: String!, $coll_id: String!) {
+        manageProfileMission(account_id: $account_id, option: $option, title: $title, category: $category, volume: $volume, time: $time, weekday: $weekday, status: $status, image: $image, coll_id: $coll_id)
     }
 `
 

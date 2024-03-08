@@ -20,9 +20,10 @@ export const getProfilesQ = gql`
                 title
                 category
                 volume
+                time
+                weekday
                 status
                 image
-                dateUp
                 supports
             }
             account_components {
@@ -54,9 +55,10 @@ export const getProfileM = gql`
                 title
                 category
                 volume
+                time
+                weekday
                 status
                 image
-                dateUp
                 supports
             }
             account_components {

@@ -5,7 +5,7 @@ export const NATIONS = ['Germany', 'USSR', 'USA', 'China', 'France', 'Great Brit
 
 export const MISSION_TYPES = ['Credits', 'Experience', 'Crew']
 export const MISSION_STATUSES = ['Created', 'Completed', 'Canceled']
-export const MISSION_DEFAULT_VOLUME = 1000
+export const MISSION_DEFAULT_VOLUME = 200
 
 // welcome
 
@@ -28,7 +28,7 @@ export const CHARACTERISTIC_DEFAULT_VOLUME = 100
 export const SESSION_TYPES = ['Students', 'Workers', 'Peasants']
 
 export const BATTLE_TYPES = ['Random', 'Frontline', 'Steel Hunter']
-export const PLATTON_STATUSES = ['Created', 'Victory', 'Defeat', 'Draw']
+export const PLATOON_STATUSES = ['Created', 'Formed', 'Destroyed']
 export const AWARD_TYPES = ['Hero', 'Rank', 'Group', 'Token', 'Stage', 'Medal', 'Special']
 
 // hero
@@ -50,11 +50,22 @@ export const BATTLE_TIME_LIMIT = 15
 export const LOCATION_TYPES = ['Hood', 'River', 'Hill']
 export const FACT_LEVELS = ['Easy', 'Medium', 'High']
 
+// replay
+
+export const NOMINATION_TYPES = ['Warming Up', 'Scout', 'Defender', 'On Character']
+export const GOLDA_TYPES = [100, 500, 1000, 2500]
+
+export const RATIO_TYPES = [2, 5, 7]
+export const BATTLE_RESULTS = ['Victory', 'Defeat', 'Draw']
+
 // system
 
 export const token = 'pk.eyJ1Ijoic2xhdnVzNTQiLCJhIjoiY2toYTAwYzdzMWF1dzJwbnptbGRiYmJqNyJ9.HzjnJX8t13sCZuVe2PiixA'
+
 export const TG_ICON = 'https://img.icons8.com/color/48/telegram-app--v1.png'
 export const WG_ICON = 'https://img.icons8.com/fluency/48/world-of-tanks.png'
+export const GOLDEN_ICON = 'https://img.icons8.com/emoji/48/coin-emoji.png'
+export const YT_ICON = 'https://img.icons8.com/color/48/youtube-play.png'
 
 export const PROJECT_TITLE = 'Wotus.com'
 

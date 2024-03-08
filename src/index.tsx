@@ -32,7 +32,7 @@ root.render(
   </React.StrictMode>
 )
 
-if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator && window.location.pathname === '/') {
   navigator.serviceWorker.register('./sw/serviceWorker.js')
 }
 

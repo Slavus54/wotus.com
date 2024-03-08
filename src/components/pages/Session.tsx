@@ -2,7 +2,7 @@ import React, {useState, useEffect, useMemo, useContext} from 'react'
 import {useMutation} from '@apollo/client'
 import Centum from 'centum.js'
 import {Datus} from 'datus.js'
-import {TANK_TYPES, BATTLE_TYPES, PLATTON_STATUSES, AWARD_TYPES, INITIAL_PERCENT} from '../../env/env'
+import {TANK_TYPES, BATTLE_TYPES, PLATOON_STATUSES, AWARD_TYPES, INITIAL_PERCENT} from '../../env/env'
 import {Context} from '../../context/WebProvider'
 import SessionDescription from '../pieces/SessionDescription'
 import NavigatorWrapper from '../router/NavigatorWrapper'
@@ -36,7 +36,7 @@ const Session: React.FC<CollectionPropsType> = ({params: {id}}) => {
         format: BATTLE_TYPES[0],
         level: '',
         duration: INITIAL_PERCENT,
-        status: PLATTON_STATUSES[0],
+        status: PLATOON_STATUSES[0],
         title: '',
         category: AWARD_TYPES[0],
         timestamp: datus.timestamp()
@@ -213,7 +213,7 @@ const Session: React.FC<CollectionPropsType> = ({params: {id}}) => {
                                 {platoon.name === context.nickname &&
                                     <>
                                         <select value={status} onChange={e => setState({...state, status: e.target.value})}>
-                                            {PLATTON_STATUSES.map(el => <option value={el}>{el}</option>)}
+                                            {PLATOON_STATUSES.map(el => <option value={el}>{el}</option>)}
                                         </select>
 
                                         <div className='items small'>   

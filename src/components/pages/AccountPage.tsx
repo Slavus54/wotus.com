@@ -48,7 +48,7 @@ const AccountPage = () => {
 
         setPage(result)
     }, [pageIndex])
-    
+     
     return (
         <>
             {profile !== null && 
