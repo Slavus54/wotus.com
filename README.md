@@ -2,11 +2,17 @@
 
 ### Description  
 
-Platform for World of Tanks lovers to improve game and interact with each other.
+Platform for World of Tanks lovers to improve own game and interact with each other.    
+
+There are models of tanks, sessions to play, heroes due WW2, areas for map-building and own replays.    
+
+Connect with any player via Telegram, view stats and missions.    
+
+Nickname: *Slavus54*    
 
 ### Technologies  
 
-Frontend: *React, Typescript, Context API, Cache (LocalStorage, ServiceWorker), Axios, GraphQL, Push-Notifications, wouter, centum.js and datus.js*.     
+Frontend: *React, Typescript, Context API, Cache (LocalStorage, ServiceWorker), Axios, GraphQL, Alert-Notifications, wouter, centum.js and datus.js*.     
 Backend: *ExpressJS, Apollo, GraphQL, Mongoose, MongoDB, microservices, uniqid*.        
 Unit Testing: *Jest*.  
 
